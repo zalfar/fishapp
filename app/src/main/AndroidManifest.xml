@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.fishapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AlatPembersih"></activity>
+        <activity android:name=".Aksesoris" />
+        <activity android:name=".Pakan" />
+        <activity android:name=".AeratorFilter" />
+        <activity android:name=".Akuarium" />
+        <activity android:name=".AlatNBahan" />
+        <activity android:name=".DasarAquascape" />
+        <activity android:name=".InfoNeonTetra" />
+        <activity android:name=".InfoKaosKaki" />
+        <activity android:name=".InfoGuppy" />
+        <activity android:name=".InfoBadut" />
+        <activity android:name=".InfoDIscus" />
+        <activity android:name=".JenisIkan" />
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

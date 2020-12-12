@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "538006627130",
+    "project_id": "sweet-trash-eb99e",
+    "storage_bucket": "sweet-trash-eb99e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538006627130:android:b3ac4d5897ca80b2326603",
+        "android_client_info": {
+          "package_name": "com.example.sweettrash"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538006627130-shbdopq1t6a3tbuqsa2rjj3am6htu559.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtXs2KQDl03u3ub3O3ylYfFD3_vbdibHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538006627130-shbdopq1t6a3tbuqsa2rjj3am6htu559.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

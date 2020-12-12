@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ikan_alat"
+    android:padding="16dp"
+    tools:context=".DasarAquascape">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_satu"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="1. Bersihkan Akuarium"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_satu"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu"
+            app:srcCompat="@drawable/gambar_akuarium" />
+
+        <TextView
+            android:id="@+id/tv_satu_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/satu"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_satu" />
+
+        <TextView
+            android:id="@+id/tv_dua"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="2. Letakkan Pasir"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_info"/>
+
+        <ImageView
+            android:id="@+id/iv_dua"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua"
+            app:srcCompat="@drawable/gambar_pasir" />
+
+        <TextView
+            android:id="@+id/tv_dua_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dua"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_dua" />
+        <TextView
+            android:id="@+id/tv_tiga"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="3. Letakkan Karbon Aktif"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_info"/>
+
+        <ImageView
+            android:id="@+id/iv_tiga"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga"
+            app:srcCompat="@drawable/gambar_karbon" />
+
+        <TextView
+            android:id="@+id/tv_tiga_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiga"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tiga" />
+        <TextView
+            android:id="@+id/tv_empat"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="4. Letakkan Pupuk"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_info"/>
+
+        <ImageView
+            android:id="@+id/iv_empat"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat"
+            app:srcCompat="@drawable/gambar_pupuk" />
+
+        <TextView
+            android:id="@+id/tv_empat_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empat"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_empat" />
+        <TextView
+            android:id="@+id/tv_lima"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="5. Tutup Pupuk dengan Pasir"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_info"/>
+
+        <ImageView
+            android:id="@+id/iv_lima"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lima"
+            app:srcCompat="@drawable/gambar_kasi_pasir" />
+
+        <TextView
+            android:id="@+id/tv_lima_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lima"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_lima" />
+
+        <TextView
+            android:id="@+id/tv_enam"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="6. Mulai Dekorasi"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lima_info"/>
+
+        <ImageView
+            android:id="@+id/iv_enam"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_enam"
+            app:srcCompat="@drawable/gambar_dekorasi" />
+
+        <TextView
+            android:id="@+id/tv_enam_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enam"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_enam" />
+
+        <TextView
+            android:id="@+id/tv_tujuh"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="7. Letakkan Tanaman"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_enam_info"/>
+
+        <ImageView
+            android:id="@+id/iv_tujuh"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tujuh"
+            app:srcCompat="@drawable/gambar_tanaman" />
+
+        <TextView
+            android:id="@+id/tv_tujuh_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tujuh"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tujuh" />
+        <TextView
+            android:id="@+id/tv_delapan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="8. Isi Akuarium dengan Air"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tujuh_info"/>
+
+        <ImageView
+            android:id="@+id/iv_delapan"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_delapan"
+            app:srcCompat="@drawable/gambar_isi_akuarium" />
+
+        <TextView
+            android:id="@+id/tv_delapan_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delapan"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_delapan" />
+        <TextView
+            android:id="@+id/tv_sembilan"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="9. Memasang Perangkat Pendukung"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_delapan_info"/>
+
+        <ImageView
+            android:id="@+id/iv_sembilan"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sembilan"
+            app:srcCompat="@drawable/gambar_perangkat" />
+
+        <TextView
+            android:id="@+id/tv_sembilan_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sembilan"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_sembilan" />
+        <TextView
+            android:id="@+id/tv_sepuluh"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="10. Perawatan Aquascape pada Dua Minggu Pertama"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sembilan_info"/>
+
+        <ImageView
+            android:id="@+id/iv_sepuluh"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sepuluh"
+            app:srcCompat="@drawable/gambar_aquascape" />
+
+        <TextView
+            android:id="@+id/tv_sepuluh_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sepuluh"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_sepuluh" />
+        <TextView
+            android:id="@+id/tv_sebelas"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="11. Masukkan Fauna"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sepuluh_info"/>
+
+        <ImageView
+            android:id="@+id/iv_sebelas"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_sebelas"
+            app:srcCompat="@drawable/gambar_fauna" />
+
+        <TextView
+            android:id="@+id/tv_sebelas_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sebelas"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_sebelas" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+

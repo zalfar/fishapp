@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:padding="20dp"
+    android:background="@drawable/bg_home">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_sapa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Selamat datang! "
+            android:textColor="#FFFFFF"
+            android:textSize="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginTop="47dp" />
+
+        <TextView
+            android:id="@+id/tv_pertanyaan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:text="Apa yang ingin kamu ketahui hari ini?"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.012"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_goneMarginTop="47dp" />
+
+        <Button
+            android:id="@+id/btn_infoIkan"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:text="Informasi Ikan Hias"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:layout_marginTop="66dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/ikann"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_pertanyaan" />
+
+        <Button
+            android:id="@+id/btn_aquascape"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/aquascapeee"
+            android:text="Dasar pembuatan aquascape"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_infoIkan" />
+
+        <Button
+            android:id="@+id/btn_alatBahan"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="26dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/alatt"
+            android:text="Alat dan Bahan"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_aquascape" />
+
+        <Button
+            android:id="@+id/btn_keranjang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/shopp"
+            android:gravity="left|center_vertical"
+            android:text="Keranjang"
+            android:textAllCaps="false"
+            android:layout_marginTop="244dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_alatBahan" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+

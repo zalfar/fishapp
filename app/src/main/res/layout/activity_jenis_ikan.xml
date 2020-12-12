@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JenisIkan"
+    android:paddingTop="80dp"
+    android:background="@drawable/bg_fitur">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_ikanNemo"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/nemo_edit"
+            android:text="Ikan Badut\nAmphiprioninae"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_ikanDiscus"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/discus_edit"
+            android:text="Ikan Discus\nSymphysodon"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ikanNemo" />
+
+        <Button
+            android:id="@+id/btn_ikanGuppy"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/guppy_edit"
+            android:text="Ikan Guppy\nPoecilia reticulata"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ikanDiscus" />
+
+        <Button
+            android:id="@+id/btn_ikanKaosKaki"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/kaoskaki_edit"
+            android:text="Ikan Kaos Kaki\nLeporinus Fasciatus"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ikanGuppy" />
+
+        <Button
+            android:id="@+id/btn_ikanNeonTetra"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/neontetra_edit"
+            android:text="Ikan Neon Tetra\nParacheirodon innesi"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_ikanKaosKaki" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

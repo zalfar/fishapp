@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ikan_alat"
+    android:padding="16dp"
+    tools:context=".Aksesoris">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_satu_aksesoris"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="1.Lampu Aquarium"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_satu_aksesoris"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_aksesoris"
+            app:srcCompat="@drawable/akuarium1" />
+
+        <TextView
+            android:id="@+id/tv_satu_info_aksesoris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/satu_aksesoris"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_satu_aksesoris" />
+
+        <TextView
+            android:id="@+id/tv_dua_aksesoris"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="2. Dr Gray Digital Termometer Akuarium"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_info_aksesoris"/>
+
+        <ImageView
+            android:id="@+id/iv_dua_aksesoris"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_aksesoris"
+            app:srcCompat="@drawable/aksesoris2" />
+
+        <TextView
+            android:id="@+id/tv_dua_info_aksesoris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dua_aksesoris"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_dua_aksesoris" />
+        <TextView
+            android:id="@+id/tv_tiga_aksesoris"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="3. Alat Pemberi Makan Ikan"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_info_aksesoris"/>
+
+        <ImageView
+            android:id="@+id/iv_tiga_aksesoris"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_aksesoris"
+            app:srcCompat="@drawable/aksesoris3" />
+
+        <TextView
+            android:id="@+id/tv_tiga_info_aksesoris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiga_aksesoris"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tiga_aksesoris" />
+        <TextView
+            android:id="@+id/tv_empat_aksesoreis"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="4. Bahan plastik dan keramik: lebih praktis"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_info_aksesoris"/>
+
+        <ImageView
+            android:id="@+id/iv_empat_aksesoris"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_aksesoreis"
+            app:srcCompat="@drawable/aksesoris4" />
+
+        <TextView
+            android:id="@+id/tv_empat_info_aksesoris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empat_aksesoris"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_empat_aksesoris" />
+        <TextView
+            android:id="@+id/tv_lima_aksesoris"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="5. Tanaman Ganggang untuk Latar Belakang Akuarium"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_info_aksesoris"/>
+
+        <ImageView
+            android:id="@+id/iv_lima_aksesoris"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lima_aksesoris"
+            app:srcCompat="@drawable/aksesoris5" />
+
+        <TextView
+            android:id="@+id/tv_lima_info_aksesoris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lima_aksesoris"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_lima_aksesoris" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+

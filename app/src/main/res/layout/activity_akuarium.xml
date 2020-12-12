@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ikan_alat"
+    android:padding="16dp"
+    tools:context=".Akuarium">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_satu_akuarium"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="1.Aquarium Mini Tank"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_satu_akuarium"
+            android:layout_width="242dp"
+            android:layout_height="215dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_akuarium"
+            app:srcCompat="@drawable/akuarium1" />
+
+        <TextView
+            android:id="@+id/tv_satu_info_akuarium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/satu_akuarium"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_satu_akuarium" />
+
+        <TextView
+            android:id="@+id/tv_dua_akuarium"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="2. Akuarium Mini My Fun dari Akrilik"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_info_akuarium"/>
+
+        <ImageView
+            android:id="@+id/iv_dua_akuarium"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_akuarium"
+            app:srcCompat="@drawable/akuarium2" />
+
+        <TextView
+            android:id="@+id/tv_dua_info_akuarium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dua_akuarium"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_dua_akuarium" />
+        <TextView
+            android:id="@+id/tv_tiga_akuarium"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="3. Akuarium Mini Tabung"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_info_akuarium"/>
+
+        <ImageView
+            android:id="@+id/iv_tiga_akuarium"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_akuarium"
+            app:srcCompat="@drawable/akuarium3" />
+
+        <TextView
+            android:id="@+id/tv_tiga_info_akuarium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiga_akuarium"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tiga_akuarium" />
+        <TextView
+            android:id="@+id/tv_empat_akuarium"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="4. Akaurium Ukuran S"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_info_akuarium"/>
+
+        <ImageView
+            android:id="@+id/iv_empat_akuarium"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_akuarium"
+            app:srcCompat="@drawable/akuarium4" />
+
+        <TextView
+            android:id="@+id/tv_empat_info_akuarium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empat_akuarium"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_empat_akuarium" />
+        <TextView
+            android:id="@+id/tv_lima_akuarium"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="5. Akuarium Ukuran M"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_info_akuarium"/>
+
+        <ImageView
+            android:id="@+id/iv_lima_akuarium"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lima_akuarium"
+            app:srcCompat="@drawable/akuarium5" />
+
+        <TextView
+            android:id="@+id/tv_lima_info_akuarium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lima_akuarium"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_lima_akuarium" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlatNBahan"
+    android:paddingTop="80dp"
+    android:background="@drawable/bg_fitur">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_akuarium"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/akuarium_edit"
+            android:text="Akuarium"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_aeratorfilter"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/aerator_edit"
+            android:text="Aerator dan Filter"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_akuarium" />
+
+        <Button
+            android:id="@+id/btn_Pakan"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/pakan_edit"
+            android:text="Pakan"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_aeratorfilter" />
+
+        <Button
+            android:id="@+id/btn_Aksesoris"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/aksesoris_edit"
+            android:text="Aksesoris"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_Pakan" />
+
+        <Button
+            android:id="@+id/btn_alatpembersih"
+            android:layout_width="287dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="47dp"
+            android:background="@drawable/btn_rounded_home"
+            android:drawableLeft="@drawable/alatpembersih_edit"
+            android:text="Alat Pembersih"
+            android:textAllCaps="false"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btn_Aksesoris" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

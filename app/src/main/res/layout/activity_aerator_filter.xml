@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ikan_alat"
+    android:padding="16dp"
+    tools:context=".AeratorFilter">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_satu_aerator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="1.Amara wp-1200 Pompa Celup"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_satu_aerator"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_aerator"
+            app:srcCompat="@drawable/aerator1" />
+
+        <TextView
+            android:id="@+id/tv_satu_info_aerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/satu_aerator"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_satu_aerator" />
+
+        <TextView
+            android:id="@+id/tv_dua_aerator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="2. Periha Water Heater Aquarium"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_satu_info_aerator"/>
+
+        <ImageView
+            android:id="@+id/iv_dua_aerator"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_aerator"
+            app:srcCompat="@drawable/aerator2" />
+
+        <TextView
+            android:id="@+id/tv_dua_info_aerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dua_aerator"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_dua_aerator" />
+        <TextView
+            android:id="@+id/tv_tiga_aerator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="3. Resun LP 100 Pompa Aerator"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_dua_info_aerator"/>
+
+        <ImageView
+            android:id="@+id/iv_tiga_aerator"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_aerator"
+            app:srcCompat="@drawable/aerator3" />
+
+        <TextView
+            android:id="@+id/tv_tiga_info_aerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tiga_aerator"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_tiga_aerator" />
+        <TextView
+            android:id="@+id/tv_empat_aerator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="4. Batu Aerator"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tiga_info_aerator"/>
+
+        <ImageView
+            android:id="@+id/iv_empat_aerator"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_aerator"
+            app:srcCompat="@drawable/aerator4" />
+
+        <TextView
+            android:id="@+id/tv_empat_info_aerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empat_aerator"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_empat_aerator" />
+        <TextView
+            android:id="@+id/tv_lima_aerator"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rectangle"
+            android:text="5. Hang On Back HOB Filter Gantung"
+            android:textColor="#FFFFFF"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_empat_info_aerator"/>
+
+        <ImageView
+            android:id="@+id/iv_lima_aerator"
+            android:layout_width="284dp"
+            android:layout_height="250dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_lima_aerator"
+            app:srcCompat="@drawable/aerator5" />
+
+        <TextView
+            android:id="@+id/tv_lima_info_aerator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lima_aerator"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_lima_aerator" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
+
+
+
+
